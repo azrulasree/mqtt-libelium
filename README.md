@@ -9,6 +9,6 @@ The usename add password created in MQTT broker inside EC2
 
 ## install module necessary for the project
 `sudo su
-sudo npm install`
+ sudo npm install`
 
 ## edit json
