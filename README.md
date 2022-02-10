@@ -12,4 +12,6 @@ The usename add password created in MQTT broker inside EC2
 `sudo npm install`
 
 ## edit index.js
+add IP address, username and passwd
+`node index.js`
 
