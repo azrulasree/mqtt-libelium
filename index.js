@@ -1,9 +1,9 @@
 var sensor = require("node-dht-sensor");
 var mqtt = require("mqtt");
-var client = mqtt.connect("ws://<AWS-EC2-IP-ADDRESS>:9001", {
+var client = mqtt.connect("ws://13.213.31.26:9001", {
   //open connection with your broker in AWS via websocket
-  username:"<username>", //authenticate your broker with username and password
-  password:"<password>",
+  username:"khairi", //authenticate your broker with username and password
+  password:"123",
 });
 
 sensor.read(11, 4, function (err, temperature, humidity) {
